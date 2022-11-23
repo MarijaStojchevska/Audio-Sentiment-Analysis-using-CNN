@@ -1,0 +1,11 @@
+librosa
+notebook
+matplotlib
+pandas
+seaborn
+tensorflow
+tensorflow-io
+argparse
+zipfile36
+import_ipynb
+Flask

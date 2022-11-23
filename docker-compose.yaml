@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+
+  report:
+    build: .
+    ports: 
+      - "8888:8888"
+    volumes: 
+      - ./SEReport:/app
+    entrypoint:
+      jupyter notebook --ip='0.0.0.0' --port=8888 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password=''
+  
+  api:
+    build: .
+    ports: 
+      - "8000:8000"
+    expose:
+      - 105
+    volumes: 
+      - ./FlaskAPI:/app
+    entrypoint:
+      jupyter notebook --ip='0.0.0.0' --port=8000 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password=''
