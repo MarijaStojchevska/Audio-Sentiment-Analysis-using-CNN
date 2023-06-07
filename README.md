@@ -1,6 +1,6 @@
 # Audio Sentiment Analysis using Docker Container
 <!-- Project description -->
-This file aims to provide with the key steps for running a Jupyter Notebook and Flask API through a Docker container on a Мac machine.
+This file aims to provide the key steps for running a Jupyter Notebook and Flask API through a Docker container (solution is tested on MacOS).
 
 ## Prerequisities
 * Install the latest Docker version via https://docker.com/.
