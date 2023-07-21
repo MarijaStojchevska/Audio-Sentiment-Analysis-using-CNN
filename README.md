@@ -2,6 +2,9 @@
 <!-- Project description -->
 This file provides the key steps for running a Jupyter Notebook and Flask API through a Docker container (the solution is tested on MacOS).
 
+
+<p><div align="center"><img width="567" src="https://github.com/MarijaStojchevska/Audio-Sentiment-Analysis-using-CNN/assets/18449614/dbec1c81-22c4-4329-abff-6a5ca770b75b.png" (https://github.com/MarijaStojchevska/Audio-Sentiment-Analysis-using-CNN/assets/18449614/dbec1c81-22c4-4329-abff-6a5ca770b75b")" > </div><div align="center"></div></p>
+
 ## Prerequisites
 * Install the latest Docker version via https://docker.com/.
 * (optional) Install Visual Studio code https://code.visualstudio.com/ for easier code navigation and debugging.
